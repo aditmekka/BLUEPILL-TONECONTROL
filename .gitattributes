@@ -1,0 +1,19 @@
+# ST HAL/CMSIS
+Drivers/** linguist-vendored
+
+# Middleware
+Middlewares/** linguist-vendored
+
+# Generated startup files
+startup_*.s linguist-generated
+
+# Generated linker scripts
+*.ld linguist-generated
+
+# STM32 system files
+Core/Src/system_stm32*.c linguist-generated
+Core/Inc/stm32*_hal_conf.h linguist-generated
+
+# Generated syscall stubs
+Core/Src/syscalls.c linguist-generated
+Core/Src/sysmem.c linguist-generated

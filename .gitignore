@@ -1,0 +1,42 @@
+# Build output
+Debug/
+Release/
+
+# STM32CubeIDE generated
+.settings/
+.metadata/
+
+# Eclipse files
+*.launch
+
+# Object files
+*.o
+*.d
+*.su
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# Debug files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# STM32CubeProgrammer generated
+*.stldr
+
+# CMake files
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
